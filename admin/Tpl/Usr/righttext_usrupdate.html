@@ -70,7 +70,7 @@
 				<input id='{$k}'>
 				<?php } ?>
 			<?php } ?>
-			<script>$('#'+"{$k}").val("{$moforjs[$k]}");</script>
+			<script>var k="{$k}";var v="{$moforjs[$k]}";if(k.indexOf('_')!=-1&&v==''){$('#'+k).val('0');}else{$('#'+k).val(v);}</script>
 			</td></tr>
 			<?php }
 			} ?>

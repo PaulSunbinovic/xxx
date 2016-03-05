@@ -1,0 +1,16 @@
+
+
+
+
+
+.backToTop{bottom: 0px!important;bottom: auto;position:fixed;_position:absolute;width:43px;height:43px;background: url(gotop.png) no-repeat 0 0;cursor: pointer;z-index:1990;bottom:0;display:none;}
+.backToTop:hover{background-position: 0 -43px;
+	-webkit-transition:background 0.2s ease 0s;
+	-moz-transition:background 0.2s ease 0s;
+	-o-transition:background 0.2s ease 0s;
+	-ms-transition:background 0.2s ease 0s;
+	transition:background 0.2s ease 0s;}
+
+/*与特效无关CSS*/
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
